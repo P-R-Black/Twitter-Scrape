@@ -20,7 +20,7 @@ def search_for_hashtags (api_key, api_secret_key, access_token, access_token_sec
 
 
     #open the spreadsheet we will write to
-    with open('%s.csv' % (fname), 'w') as file:
+    with open('%s.csv' % (hashtag_phrase), 'w') as file:
         w = csv.writer(file)
 
         #write header row to spreadsheet
